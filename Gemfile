@@ -9,14 +9,16 @@ gem 'nifty-generators'
 #gem 'sqlite3-ruby', '1.3.7', :group => :development
 gem 'sqlite3'
 
-#group :development, :test do
-  gem 'sqlite3'
-#end
-#group :production do
-  gem 'sqlite3'
-#  gem 'pg'
-#end
 
+#group :development do
+#  gem 'taps'
+#  gem 'rvm'
+#end
+gem 'sqlite3', :group => [:development, :test]
+group :production do
+  gem 'thin'
+  gem 'pg'
+end
 
 gem 'devise'
 gem 'omniauth-twitter'
