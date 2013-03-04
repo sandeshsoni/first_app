@@ -7,15 +7,15 @@ gem 'rails', '3.2.12'
 gem 'nifty-generators'
 
 #gem 'sqlite3-ruby', '1.3.7', :group => :development
-#gem 'sqlite3'
+gem 'sqlite3'
 
-group :development, :test do
+#group :development, :test do
   gem 'sqlite3'
-end
-group :production do
-#  gem 'sqlite3'
-  gem 'pg'
-end
+#end
+#group :production do
+  gem 'sqlite3'
+#  gem 'pg'
+#end
 
 
 gem 'devise'
