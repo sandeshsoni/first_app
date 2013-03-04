@@ -18,6 +18,7 @@ gem 'nifty-generators'
 #end
 
 gem 'sqlite3', :group => [:development, :test]
+# gem "pg"
 
 gem 'devise'
 gem 'omniauth-twitter'
