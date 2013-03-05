@@ -15,8 +15,9 @@ gem 'nifty-generators'
 # gem "pg"
 #end
 
-gem 'sqlite3', :group => [:development, :test]
-# gem "pg"
+#gem 'sqlite3', :group => [:development, :test]
+#gem "pg"
+gem 'postgres-pr'
 
 gem 'devise'
 gem 'omniauth-twitter'
