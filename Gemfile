@@ -6,7 +6,7 @@ gem 'rails', '3.2.12'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 gem 'nifty-generators'
 
-gem 'heroku', :group => :development
+
 
 #group :development do
 # gem "sqlite3"
@@ -16,9 +16,10 @@ gem 'heroku', :group => :development
 # gem "pg"
 #end
 
-gem 'sqlite3', :group => [:development, :test]
-#gem "pg"
-#gem 'postgres-pr'
+#gem 'sqlite3', :group => [:development, :test]
+#gem "pg", :group => [:development, :test]
+gem 'postgres-pr'
+gem 'heroku', :group => :development
 
 gem 'devise'
 gem 'omniauth-twitter'
