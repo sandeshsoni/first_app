@@ -8,18 +8,18 @@ gem 'nifty-generators'
 
 
 
-#group :development do
-# gem "sqlite3"
+group :development do
+ gem "sqlite3"
 # gem "pg"
-#end
-#group :production do
-# gem "pg"
-#end
+end
+group :production do
+ gem "pg"
+end
 
 #gem 'sqlite3', :group => [:development, :test]
 #gem "pg", :group => [:development, :test]
 #gem 'postgres-pr'
-gem 'pg'
+#gem 'pg'
 gem 'heroku', :group => :development
 
 gem 'devise'
